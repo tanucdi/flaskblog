@@ -1,1 +1,1 @@
-web: gunicorn flaskblog.wsgi --log-file-
+web: gunicorn --bind 0.0.0.0:$PORT flaskblog:app
